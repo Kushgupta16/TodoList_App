@@ -38,7 +38,7 @@ class _HomescreenState extends State<Homescreen> {
             style: GoogleFonts.roboto(
               color: Colors.black,
               fontWeight: FontWeight.bold,
-              fontSize: 21
+              fontSize: 24
             ),
             ),
             const SizedBox(height: 20),
@@ -72,6 +72,9 @@ class _HomescreenState extends State<Homescreen> {
           ],
         ),
       ),
+      floatingActionButton: FloatingActionButton.extended(onPressed: (){}, label:Text("Add Note"),
+        icon: Icon(Icons.add),
+        backgroundColor: Colors.black,),
 
     );
   }

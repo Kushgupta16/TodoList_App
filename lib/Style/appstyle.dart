@@ -26,7 +26,7 @@ class AppStyle{
   GoogleFonts.nunito(fontSize: 17,fontWeight: FontWeight.normal);
 
   static TextStyle dateTitle =
-  GoogleFonts.roboto(fontSize: 15,fontWeight: FontWeight.w400);
+  GoogleFonts.roboto(fontSize: 12,fontWeight: FontWeight.w400);
 
 
 }
