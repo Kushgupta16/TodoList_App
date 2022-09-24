@@ -19,7 +19,7 @@ SRMKZILLA SRM Technical Domain Task - App - ToDo List
 
 <br/>
 
-[<img width="50" alt="Google_Drive max-1100x1100" src="https://user-images.githubusercontent.com/97805045/192091244-12cc1ab7-403a-4711-a0ce-3144f4cf6d51.png">](https://drive.google.com/file/d/1KZX-Vh9B-X1_igTmR7s9vevTO-RiSQxp/view?usp=sharing)
+[<img width="30" alt="Google_Drive max-1100x1100" src="https://user-images.githubusercontent.com/97805045/192091244-12cc1ab7-403a-4711-a0ce-3144f4cf6d51.png">](https://drive.google.com/file/d/1KZX-Vh9B-X1_igTmR7s9vevTO-RiSQxp/view?usp=sharing)
 
 <br/>
 
