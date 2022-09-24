@@ -1,6 +1,8 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:todoapp/Screen/note_editor.dart';
+import 'package:todoapp/Screen/note_reader.dart';
 import 'package:todoapp/Widget/note_card.dart';
 import '../Style/appstyle.dart';
 
@@ -56,7 +58,14 @@ class _HomescreenState extends State<Homescreen> {
                     return GridView(gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
                       crossAxisCount: 2),
                     children: snapshot.data!.docs
-                        .map((note) => noteCard(() {}, note))
+                        .map((note) => noteCard(() {
+                          Navigator.push(
+                              context,
+                              MaterialPageRoute(
+                            builder: (context) =>
+                                NoteReaderScreen(note),
+                              ));
+                    }, note))
                         .toList(),
                     );
                   }
@@ -64,7 +73,6 @@ class _HomescreenState extends State<Homescreen> {
                   style: GoogleFonts.nunito(
                       color:Colors.black ),
                   );
-
                 },
               ),
             )
@@ -72,7 +80,11 @@ class _HomescreenState extends State<Homescreen> {
           ],
         ),
       ),
-      floatingActionButton: FloatingActionButton.extended(onPressed: (){}, label:Text("Add Note"),
+      floatingActionButton: FloatingActionButton.extended(
+        onPressed: (){
+          Navigator.push(context, MaterialPageRoute(builder: (context)=>NoteEditorScreen()));
+        },
+        label:Text("Add Note"),
         icon: Icon(Icons.add),
         backgroundColor: Colors.black,),
 
