@@ -1,23 +1,32 @@
-# Dayzer App
+# Notes App
 
 
-GDSC SRM Technical Domain Task - App - Dayzer App
+SRMKZILLA SRM Technical Domain Task - App - ToDo List
 
+-using Firebase 🔥
 
-made with ❤️
+<br/>
+
 
 ### By KUSH GUPTA
 
 
 
-<br/><br/>
+<br/>
+
+# Start Using It
 
 
+<br/>
+
+[<img width="50" alt="Google_Drive max-1100x1100" src="https://user-images.githubusercontent.com/97805045/192091244-12cc1ab7-403a-4711-a0ce-3144f4cf6d51.png">](https://drive.google.com/file/d/1KZX-Vh9B-X1_igTmR7s9vevTO-RiSQxp/view?usp=sharing)
+
+<br/>
 
 # Screenshots
 
 
-<img width="263" alt="IMG_20220918_143516" src="https://user-images.githubusercontent.com/97805045/190897829-f248e6ff-eac5-4cd5-9d19-5e9e2da4c9d3.jpg"> <img width="263" alt="IMG_20220918_154832" src="https://user-images.githubusercontent.com/97805045/190897646-5549e0a4-f597-4fe9-955d-0d711c219a8f.jpg"> <img Width="263" alt="IMG_20220918_155057" src="https://user-images.githubusercontent.com/97805045/190897654-5a0a2a5c-1012-4166-ada7-9419159721c5.jpg">
+<img width="263" alt="IMG_20220924_142900" src="https://user-images.githubusercontent.com/97805045/192090428-037c899f-2c37-4c58-a1da-609a60439df5.jpg"> <img width="263" alt="IMG_20220924_142928 (1)" src="https://user-images.githubusercontent.com/97805045/192090498-f91fd32e-d2fd-4d78-b22f-1901366cae0f.jpg"> <img Width="263" alt="IMG_20220924_142951" src="https://user-images.githubusercontent.com/97805045/192090596-aeadd8e4-155f-4e9d-b996-4a9a2b2af5c0.jpg">
 
 
 
@@ -34,7 +43,7 @@ The app is developed using the awesome Flutter framework developed by Google.
 
 <br/><br/>
 
-# Implemented With
+# Implemented On
 
 ● Phone- Redmi Note 7 pro
 
@@ -52,9 +61,14 @@ The app is developed using the awesome Flutter framework developed by Google.
 
 ● Dart        <img width="20" alt="Dart-logo-icon svg" src="https://user-images.githubusercontent.com/97805045/190900514-0afc445a-696f-4b82-9f40-76694e60f5fb.png">
 
+● Firebase    <img width="25" alt="touchicon-180" src="https://user-images.githubusercontent.com/97805045/192090232-abed386b-fb46-4b47-a642-535a745dec61.png">
 
 
-● pub.dev/packages/get
+● Firebase_core
 
-● pub.dev/packages/percent_indicator
+● Google_fonts
+
+● Cloud_firestore
+
+
 
