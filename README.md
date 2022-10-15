@@ -1,7 +1,6 @@
 # Notes App
 
 
-SRMKZILLA SRM Technical Domain Task - App - ToDo List
 
 -using Firebase 🔥
 
